@@ -226,52 +226,52 @@ const photoMemories: PhotoMemory[] = [
   {
     title: "Nosso primeiro encontro",
     description: "O nervosismo gostoso e os sorrisos tímidos",
-    placeholder: "../../public/primeiro-dia.jpg",
+    placeholder: "/public/primeiro-dia.jpg",
   },
   {
     title: "João Pessoa",
     description: "Mar, sol e a certeza de que era para sempre",
-    placeholder: "../../public/JP.jpg",
+    placeholder: "/public/JP.jpg",
   },
   {
     title: "Momentos especiais",
     description: "Cada segundo vale uma foto, cada foto uma memória",
-    placeholder: "../../public/dormindo-no-colo.jpg",
+    placeholder: "/public/dormindo-no-colo.jpg",
   },
   {
     title: "Nosso Réveillon",
     description: "Luzes, música e o beijo da virada",
-    placeholder: "../../public/ano-novo.png",
+    placeholder: "/public/ano-novo.png",
   },
   {
     title: "Dia do pedido de namoro",
     description: "Aqui parece até uma fanfic",
-    placeholder: "../../public/dia-do-namoro.jpg",
+    placeholder: "/public/dia-do-namoro.jpg",
   },
   {
     title: "Cineminha",
     description: "Em casal e com direito a pipoca",
-    placeholder: "../../public/cinema.jpg",
+    placeholder: "/public/cinema.jpg",
   },
   {
     title: "Um trio diferenciado",
     description: "Um trio bem diferenciado que aquece o coração",
-    placeholder: "../../public/trio.jpg",
+    placeholder: "/public/trio.jpg",
   },
   {
     title: "Avós que ganhei",
     description: "Fui abençoada com avós que me amam",
-    placeholder: "../../public/avos.jpg",
+    placeholder: "/public/avos.jpg",
   },
   {
     title: "Em um dos melhores lugares",
     description: "Próxima vez é com pamonha",
-    placeholder: "../../public/sitio.jpg",
+    placeholder: "/public/sitio.jpg",
   },
   {
     title: "E a saudade",
     description: "Onde mora toda a expectativa do reencontro",
-    placeholder: "../../public/saudade.jpg",
+    placeholder: "/public/saudade.jpg",
   },
 ];
 
