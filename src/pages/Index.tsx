@@ -509,7 +509,7 @@ const Index = () => {
 
       {/* Enhanced Navigation */}
       <div className="flex flex-col items-center mb-12 px-4 sm:px-6 space-y-2">
-        <p className="text-sm text-gray-500">⬅️ Role para o lado ⮕</p>
+        <p className="text-sm text-gray-500">⬅ Role para o lado ⮕</p>
 
         <div className="glass-effect-strong rounded-full p-3 shadow-2xl w-full max-w-screen-lg relative">
           <div className="flex gap-2 overflow-x-auto scrollbar-none scroll-smooth snap-x snap-mandatory">
