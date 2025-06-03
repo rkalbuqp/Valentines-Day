@@ -508,30 +508,37 @@ const Index = () => {
       </div>
 
       {/* Enhanced Navigation */}
-      <div className="flex justify-center mb-12 px-6">
-        <div className="glass-effect-strong rounded-full p-3 shadow-2xl">
-          <div className="flex gap-1 overflow-x-auto">
+      <div className="flex flex-col items-center mb-12 px-4 sm:px-6 space-y-2">
+        <p className="text-sm text-gray-500">⬅️ Role para o lado ⮕</p>
+
+        <div className="glass-effect-strong rounded-full p-3 shadow-2xl w-full max-w-screen-lg relative">
+          <div className="flex gap-2 overflow-x-auto scrollbar-none scroll-smooth snap-x snap-mandatory">
             {sections.map((section) => {
               const IconComponent = section.icon;
+              const isActive = currentSection === section.key;
+
               return (
                 <button
                   key={section.key}
                   onClick={() => setCurrentSection(section.key as any)}
-                  className={`navigation-pill px-6 py-3 rounded-full font-inter font-semibold transition-all duration-500 relative overflow-hidden flex items-center gap-2 whitespace-nowrap ${
-                    currentSection === section.key
+                  className={`navigation-pill min-w-[max-content] snap-start px-6 py-3 rounded-full font-inter font-semibold transition-all duration-500 relative overflow-hidden flex items-center gap-2 whitespace-nowrap ${
+                    isActive
                       ? "active text-white shadow-2xl"
                       : "text-burnRed-700 hover:text-rose-600"
                   }`}
                 >
                   <IconComponent className="w-4 h-4" />
                   <span className="relative z-10">{section.label}</span>
-                  {currentSection === section.key && (
+                  {isActive && (
                     <div className="absolute inset-0 bg-gradient-to-r from-rose-400 via-lilac-400 to-gold-400 animate-shimmer" />
                   )}
                 </button>
               );
             })}
           </div>
+
+          {/* Barra guia abaixo da navegação */}
+          <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-rose-400 to-transparent rounded-full opacity-60 pointer-events-none" />
         </div>
       </div>
 
