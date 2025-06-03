@@ -14,8 +14,16 @@ import {
   Gift,
   Music,
 } from "lucide-react";
-import { Card } from "@/components/ui/card";
-
+import PrimeiroDia from "/public/primeiro-dia.jpg";
+import JP from "/public/JP.jpg";
+import DormindoNoColo from "/public/dormindo-no-colo.jpg";
+import AnoNovo from "/public/ano-novo.png";
+import DiaDoNamoro from "/public/dia-do-namoro.jpg";
+import Cinema from "/public/cinema.jpg";
+import Trio from "/public/trio.jpg";
+import Avos from "/public/avos.jpg";
+import Sitio from "/public/sitio.jpg";
+import Saudaded from "/public/saudaded.jpg";
 interface TimelineEvent {
   date: string;
   title: string;
@@ -227,52 +235,52 @@ const photoMemories: PhotoMemory[] = [
   {
     title: "Nosso primeiro encontro",
     description: "O nervosismo gostoso e os sorrisos tímidos",
-    placeholder: "/public/primeiro-dia.jpg",
+    placeholder: PrimeiroDia,
   },
   {
     title: "João Pessoa",
     description: "Mar, sol e a certeza de que era para sempre",
-    placeholder: "/public/JP.jpg",
+    placeholder: JP,
   },
   {
     title: "Momentos especiais",
     description: "Cada segundo vale uma foto, cada foto uma memória",
-    placeholder: "/public/dormindo-no-colo.jpg",
+    placeholder: DormindoNoColo,
   },
   {
     title: "Nosso Réveillon",
     description: "Luzes, música e o beijo da virada",
-    placeholder: "/public/ano-novo.png",
+    placeholder: AnoNovo,
   },
   {
     title: "Dia do pedido de namoro",
     description: "Aqui parece até uma fanfic",
-    placeholder: "/public/dia-do-namoro.jpg",
+    placeholder: DiaDoNamoro,
   },
   {
     title: "Cineminha",
     description: "Em casal e com direito a pipoca",
-    placeholder: "/public/cinema.jpg",
+    placeholder: Cinema,
   },
   {
     title: "Um trio diferenciado",
     description: "Um trio bem diferenciado que aquece o coração",
-    placeholder: "/public/trio.jpg",
+    placeholder: Trio,
   },
   {
     title: "Avós que ganhei",
     description: "Fui abençoada com avós que me amam",
-    placeholder: "/public/avos.jpg",
+    placeholder: Avos,
   },
   {
     title: "Em um dos melhores lugares",
     description: "Próxima vez é com pamonha",
-    placeholder: "/public/sitio.jpg",
+    placeholder: Sitio,
   },
   {
     title: "E a saudade",
     description: "Onde mora toda a expectativa do reencontro",
-    placeholder: "/public/saudaded.jpg",
+    placeholder: Saudaded,
   },
 ];
 
