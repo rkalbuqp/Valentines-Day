@@ -442,10 +442,10 @@ const Index = () => {
       </audio>
 
       {/* Enhanced Music Control */}
-      <div className="fixed top-6 right-6 z-50">
+      <div className="fixed top-4 right-6 z-50">
         <button
           onClick={handlePlayPause}
-          className="glass-effect-strong rounded-full p-4 hover:scale-110 transition-all duration-300 group"
+          className="glass-effect-strong rounded-full p-2 hover:scale-110 transition-all duration-300 group"
         >
           <div className="flex items-center gap-2 text-rose-600 font-inter font-semibold">
             <div className="relative">
@@ -456,7 +456,7 @@ const Index = () => {
               )}
               <div className="absolute inset-0 bg-gradient-to-r from-rose-400 to-lilac-400 rounded-full opacity-0 group-hover:opacity-30 transition-opacity duration-300" />
             </div>
-            <div>Aperta play, amor</div>
+            <div>Aperta play, amor ❤️</div>
           </div>
         </button>
       </div>
