@@ -271,7 +271,7 @@ const photoMemories: PhotoMemory[] = [
   {
     title: "E a saudade",
     description: "Onde mora toda a expectativa do reencontro",
-    placeholder: "/public/saudade.jpg",
+    placeholder: "/public/saudaded.jpg",
   },
 ];
 
@@ -697,7 +697,7 @@ const Index = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 gap-6">
               {photoMemories.map((photo, index) => (
                 <div
                   key={index}
